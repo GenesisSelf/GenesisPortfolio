@@ -17,35 +17,97 @@
     </head>
     <body>
 
-<div id="content">
+<div class="main">
 
-  <div id="header">
-<nav><div class="logo>"><h1> g.Self</h1>
-Front-end Developer</div>
-<br><br><br>
+  <div class="header">
+  <div class="logo">
+    <h1> g.Self</h1>
+    <span>Front-end Developer</span>
+  </div>
+  <ul class="navigation">
+    <!-- <li><a id="about" href="portfolio.html">About</a></li> -->
+    <li><a id="projects" href="#project">Projects</a></li>
+    <li><a id="gisprojects" href="#gis">GIS Portfolio</a></li>
+  </ul>
+</div>
 
-  <li><a id="about" href="portfolio.html">About</a></li>
-<li><a id="projects" href="projects.html">Projects</a></li>
-<li><a id="gis" href="gis.html">GIS Portfolio</a></li>
+<div class="wrapper">
+  <section class="content">
+      <div><br>
+        <img class="selfie" src="img/gs_avatar.jpg"> <h2>Welcome!</h2>
 
-  </nav></div>
+    <p> My name is Genesis Self-Fordham and I am a Bristol, UK based Front-end web developer and GIS enthusiast. I build websites to beautifully convey messages & maps to tell urban stories. When I am not online, I illustrate and design mail art on pen and paper. Please feel free to contact me to discuss a future project together. International enquiries are also welcome. I can communicate in English and in Spanish.
 
-<section>
-  <div class="content"><br>
-    <img class="selfie" src="img/gs_avatar.jpg" height="100" width="100"> <h2>Welcome!</h2>
-<br>
-<p> My name is Genesis Self-Fordham and I am a Bristol, UK based Front-end web developer and GIS enthusiast. I build websites to beautifully convey messages & maps to tell urban stories. When I am not online, I illustrate and design mail art on pen and paper. Please feel free to contact me to discuss a future project together. International enquiries are also welcome. I can communicate in English and in Spanish.
-<br>
-<i class="fa fa-codepen" aria-hidden="true"><a href="https://codepen.io/gself/"></a></i>
-<i class="fa fa-github"><a href="https://github.com/GenesisSelf"></a></i></p>
-</p></div> </section></body>
+    <i class="fa fa-codepen" aria-hidden="true"><a href="https://codepen.io/gself/"></a></i>
+    <i class="fa fa-github"><a href="https://github.com/GenesisSelf"></a></i></p>
+    </p></div>
+  </section>
 
 
- <footer>
-<h2>CONTACT</h2>
-<p>Genesis Self-Fordham<br>
-<i class="fa fa-envelope-o" aria-hidden="true"></i>
-urbangenite@gmail.com<br>
-<i class="fa fa-mobile fa-lg" aria-hidden="true"></i> +44 0754 663 1397<br>
-Layout designed and coded by g.Self</p>
-    </footer>
+   <div class="contact">
+    <h2>CONTACT</h2>
+    <p>Genesis Self-Fordham<br>
+    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+    urbangenite@gmail.com<br>
+    <i class="fa fa-mobile fa-lg" aria-hidden="true"></i> +44 0754 663 1397<br>
+    </p>
+  </div>
+
+ <div class="expertise">
+   <h2>EXPERTISE</h2>
+  <p>HTML/HTML5
+  CSS/CSS3/CSS Grid
+  JavaScript/jQuery/d3.js
+  GeoJSON/JSON/AJAX
+  QGIS/ArcMAP/Python/ESRI Products
+  Abode Illustrator/Indesign
+</p>
+</div>
+
+<section id="project">
+  <span class="projecttitle">Front-end Projects</span>
+  <div class="project1">
+    <span>
+      <a href="https://github.com/GenesisSelf">BOKCAERIN.com</a>
+    </span>
+      <img class="bok" src="img/bokcaerinhomepage.png">
+      <p class="1">Technologies used: Flexbox, HTML5/CSS3 All images are property of BOKCAERIN</p>
+  <div class="project2">
+  <span class="2">
+    <a href="https://codepen.io/gself/full/LLpvXe/Jane">Jane Jacobs Tribute</a></span>
+      <img class="jane1" src="img/JaneJacobsscreenshot.png">
+  <p>Technologies used: Bootstrap, HTML5/CSS3, Google Fonts Illustration was created by g.Self using Abode Illustrator
+  </p>
+  </div>
+  <div class="project3">
+  <span class="3"><a href="https://github.com/GenesisSelf"> g.Self </a></span>
+  <img class="gself" src="img/gselfpreview2.png">
+  Technologies used: CSS grid, HTML5/CSS3, Google Fonts
+</p>
+</section>
+<section id="gis">
+  <span class = "gistitle">GIS Portfolio</span>
+    <div class="gisproject1">
+      <h3>Interactive Cartography</h3>
+      <h3 class="popchange">Population Change in England</h3>
+      <iframe src="Englandpopulationchange/map.html" width=600px height=516px></iframe>
+      <p> Technologies used: Leaflet JS library, HTML5/CSS3, QGIS, Excel, JSON, Stamen Title layer, OpenStreetMap
+      </p>
+    </div>
+    <div class="gisproject2">
+      <h3>Cartography</h3>
+        <h3 class="infantmortality">Infant Mortality Rates in the U.S.</h3>
+      <img src="img/choroplethmapinf.png" width=450 height=350>
+      <p> Technologies used: QGIS</p>
+    </div>
+    <div class="project3">
+      <h3 class="decadeofgreen">Decade of Green</h3>
+      <img src="img/Decade of Green.png" width=200 height=300>
+      <p>Technologies used: ESRI products - ArcMAP10
+      </p>
+    </div>
+</section>
+</div>
+
+    <footer> &copy; g.Self 2017</footer>
+    </body>
